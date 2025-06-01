@@ -11,7 +11,7 @@ def is_moceable(str_analyze):
         return False
 
 
-all_headers = [y for x in os.walk("/home/emelys3/git/worktips-lite-wallet") for y in glob(os.path.join(x[0], '*.h'))]
+all_headers = [y for x in os.walk("/home/{{user}}/git/worktips-lite-wallet") for y in glob(os.path.join(x[0], '*.h'))]
 
 for c_result in all_headers:
 
